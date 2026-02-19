@@ -85,25 +85,25 @@ actor SummarizationService {
         
         let urgent = items.filter { $0.category == "Urgent" }
         if !urgent.isEmpty {
-            sections.append("🔴 **Urgent**")
+            sections.append("**Urgent**")
             sections.append(urgent.map { "• \($0.title)" }.joined(separator: "\n"))
         }
         
         let work = items.filter { $0.category == "Work" }
         if !work.isEmpty {
-            sections.append("\n💼 **Work**")
+            sections.append("\n**Work**")
             sections.append(work.map { "• \($0.title)" }.joined(separator: "\n"))
         }
         
         let personal = items.filter { ["Personal", "Finance"].contains($0.category) }
         if !personal.isEmpty {
-            sections.append("\n📋 **Personal**")
+            sections.append("\n**Personal**")
             sections.append(personal.map { "• \($0.title)" }.joined(separator: "\n"))
         }
         
         let other = items.filter { !["Urgent", "Work", "Personal", "Finance"].contains($0.category) }
         if !other.isEmpty {
-            sections.append("\n📌 **Other**")
+            sections.append("\n**Other**")
             sections.append(other.map { "• \($0.title)" }.joined(separator: "\n"))
         }
         

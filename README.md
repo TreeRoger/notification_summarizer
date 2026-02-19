@@ -19,12 +19,12 @@ Due to Apple's privacy-first design, **apps cannot access notifications from oth
 
 ## Features
 
-- 📱 **Multiplatform** — Single codebase for iPhone and Mac
-- ⚡ **Quick add** — Capture items via shortcut, paste, or manual entry
-- 🤖 **AI summarization** — Condense multiple items into actionable digests
-- 📂 **Categories** — Organize by Work, Personal, Urgent, etc.
-- 🔄 **Apple Reminders sync** — Import reminders for summarization (optional)
-- 🌙 **Dark/Light mode** — Respects system appearance
+- **Multiplatform** — Single codebase for iPhone and Mac
+- **Quick add** — Capture items via shortcut, paste, or manual entry
+- **AI summarization** — Condense multiple items into actionable digests
+- **Categories** — Organize by Work, Personal, Urgent, etc.
+- **Apple Reminders sync** — Import reminders for summarization (optional)
+- **Dark/Light mode** — Respects system appearance
 
 ## Tech Stack
 
